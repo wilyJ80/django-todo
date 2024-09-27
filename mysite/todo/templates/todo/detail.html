@@ -1,0 +1,6 @@
+<h1>{{ project.title }}</h1>
+<ul>
+	{% for todo in project.todo_set.all %}
+	<li>{{ todo.content }}</li>
+	{% endfor %}
+</ul>

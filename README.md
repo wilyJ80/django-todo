@@ -1,1 +1,3 @@
-# django-todo
+# Run
+
+`docker compose up --build`
